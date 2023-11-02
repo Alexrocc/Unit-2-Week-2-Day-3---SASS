@@ -4,4 +4,8 @@
 @import "./partials/buttons";
 @import "./partials/colors";
 
-
+header{
+    h1{
+        @include title-big()
+}
+}
