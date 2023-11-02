@@ -120,14 +120,17 @@ body {
 
 .button-bg-1 {
   background-color: #0e6cff;
+  padding: 10px 20px;
 }
 
 .button-bg-2 {
   background-color: #ff8700;
+  padding: 10px 20px;
 }
 
 .button-bg-3 {
   background-color: #4caf50;
+  padding: 10px 20px;
 }
 
 h1, h2, h3, h4, h5, h6, p, span, button, ul {
@@ -142,4 +145,25 @@ header h1 {
   font-size: 2.3rem;
   font-weight: 900;
   text-shadow: 1px 1px black;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.flex > * {
+  width: 16.6666666667%;
+}
+
+button {
+  border-radius: 40px;
+  box-shadow: 2px 2px 2px 2px rgb(26, 25, 25);
+  border: 1px solid black;
+}
+
+img {
+  border-radius: 40px;
+  box-shadow: 2px 2px 2px 2px rgb(26, 25, 25);
+  border: 1px solid black;
 }/*# sourceMappingURL=style.css.map */

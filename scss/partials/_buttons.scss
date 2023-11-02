@@ -8,5 +8,6 @@ $colorList: (1:$color-1, 2:$color-2, 3:$color-3);
 @each $key, $value in $colorList{
     .button-bg-#{$key} {
         background-color: $value;
+        padding: 10px 20px
     }
 };

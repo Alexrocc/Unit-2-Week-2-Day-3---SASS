@@ -3,9 +3,22 @@
 @import "./partials/font";
 @import "./partials/buttons";
 @import "./partials/colors";
+@import "./partials/mixins";
 
 header{
     h1{
         @include title-big()
 }
+};
+
+.flex{
+    @include grid(6);
+};
+
+button {
+    @include floating()
+}
+
+img{
+    @include floating()
 }
