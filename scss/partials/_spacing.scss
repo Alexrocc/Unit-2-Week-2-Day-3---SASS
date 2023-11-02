@@ -1,0 +1,22 @@
+$space-types: "margin", "padding";
+
+$types: "block", "inline";
+
+$spacings: (
+    sm: 0.25rem,
+    normal: 0.5rem,
+    md: 0.75rem,
+    lg: 1rem,
+    xl: 1.5rem,
+    xxl: 3rem
+    );
+
+@each $type in $space-types{
+@each $el in $types{
+    @each $key, $value in $spacings{
+        .#{$type}-#{$el}-#{$key} {
+            #{$type}-#{$el}:$value
+        }
+    }
+}
+};

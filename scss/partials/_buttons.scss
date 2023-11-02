@@ -1,0 +1,12 @@
+$color-1: #0e6cff;
+$color-2: #ff8700;
+$color-3: #4caf50;
+
+
+$colorList: (1:$color-1, 2:$color-2, 3:$color-3);
+
+@each $key, $value in $colorList{
+    .button-bg-#{$key} {
+        background-color: $value;
+    }
+};

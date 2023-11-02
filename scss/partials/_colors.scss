@@ -1,0 +1,10 @@
+$bg-header: #640fc5;
+$text-color: #f4f4f4;
+
+h1, h2, h3, h4, h5, h6, p, span, button, ul{
+ color: $text-color;
+}
+
+header{
+    background-color: $bg-header;
+}
